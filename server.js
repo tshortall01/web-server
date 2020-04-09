@@ -1,7 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 const app = express();
-const port = 5050; // anything above 4000 for ports is fine for  a port.
+const port = 3050; // anything above 4000 for ports is fine for  a port.
 
 //Linking in the index.html file, has to be before all routes.
 //.static is a built in middleware method. Controls what the users can see via authenitcation.
